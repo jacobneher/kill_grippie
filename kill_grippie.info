@@ -1,0 +1,4 @@
+name = Kill Grippie
+description = This module removed grippies from textareas.
+core = 7.x
+version = 7.x-1.0

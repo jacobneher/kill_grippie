@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * Implements hook_preprocess_HOOK().
+ */
+function kill_grippie_preprocess_textarea(&$vars) {
+  $vars['element']['#resizable'] = 0;
+}
